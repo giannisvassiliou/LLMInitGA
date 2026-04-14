@@ -44,8 +44,6 @@ Or pass it as a positional argument (see Usage below).
 
 | `--dataset` value | Description | Required file |
 |---|---|---|
-| `synthetic` | Procedurally generated knapsack (easy + hard) | none |
-| `hard_json` | Realistic 200-item constrained knapsack | `hard_knapsack_200.json` |
 | `semantic_json` | Expedition planning with relational constraints | `semantic_expedition.json` |
 
 Place `.json` dataset files in the working directory before running.
@@ -60,23 +58,12 @@ Place `.json` dataset files in the working directory before running.
 python semantic_aware_llm_init_scriptSEEME.py --quick --dataset semantic_json
 ```
 
-```bash
-python semantic_aware_llm_init_scriptSEEME.py --quick --dataset hard_json --easy
-```
-
-```bash
-python semantic_aware_llm_init_scriptSEEME.py --quick --dataset synthetic
-```
-
 ### Full camera-ready experiments (reproduces paper Table 6)
 
 ```bash
 python semantic_aware_llm_init_scriptSEEME.py --camera --dataset semantic_json --runs 30 --seed0 12345
 ```
 
-```bash
-python semantic_aware_llm_init_scriptSEEME.py --camera --dataset hard_json --runs 30 --outdir results_hard
-```
 
 ---
 
@@ -124,40 +111,7 @@ Written to `--outdir` (default: `camera_ready_results/`):
 
 ---
 
-## Code Structure
 
-```
-semantic_aware_llm_init_scriptSEEME.py
-│
-├── Data classes
-│   ├── Item / SimpleItem          # Standard knapsack items
-│   └── SemanticItem               # Items with requires / synergies / conflicts / enables
-│
-├── Problem classes
-│   ├── SimpleProblem              # Easy synthetic (50 items, 1 constraint)
-│   ├── HardKnapsackProblem        # Hard synthetic (200 items, 4 constraint types)
-│   └── SemanticKnapsackProblem    # Expedition planning with relational constraints
-│
-├── build_semantic_aggregate_summary()
-│   └── Builds category-level dependency / conflict / synergy matrices
-│       for LLM prompting — no item-level identities exposed
-│
-├── LLMGuidance
-│   ├── _get_simple_guidance()     # Prompt for easy instances
-│   ├── _get_hard_guidance()       # Prompt for hard constrained instances
-│   └── _get_semantic_guidance()   # Semantic-aware prompt with relational matrices
-│
-├── GeneticAlgorithm
-│   ├── initialize_population_random()
-│   ├── initialize_population_ffgr()         # Handcrafted greedy baseline
-│   └── initialize_population_llm_guided()   # LLM-guided, semantic-aware
-│
-├── get_guidance_pool()            # Cache-aware LLM guidance pre-generation
-├── quick_test()                   # Fast smoke test
-└── camera_ready_experiments()     # Full reproducible evaluation (30 runs)
-```
-
----
 
 ## Key Design Choices
 
@@ -182,12 +136,3 @@ LLM Init outperforms the handcrafted FFGR baseline in both mean fitness and vari
 
 ---
 
-## Citation
-
-```bibtex
-@inproceedings{llm-ga-ppsn2026,
-  title     = {LLM-Guided Initialization for Genetic Algorithms Under Strict Feasibility Constraints},
-  booktitle = {Parallel Problem Solving from Nature (PPSN 2026)},
-  year      = {2026}
-}
-```
