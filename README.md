@@ -41,7 +41,7 @@ Three dataset modes are supported:
 |---|---|
 | `synthetic` | Procedurally generated knapsack (easy + hard variants) |
 | `hard_json` | Realistic 200-item constrained knapsack (`hard_knapsack_200.json`) |
-| `semantic_json` | Expedition planning with dependencies, synergies, and conflicts (`semantic_expedition.json`) |
+| `semantic_json` |  (`semantic_expedition.json`) |
 
 For `hard_json` and `semantic_json`, place the corresponding `.json` files in the working directory before running.
 
@@ -54,21 +54,21 @@ python corrected_ffgr_llm_init_script___SEE_ME.py --quick --dataset synthetic
 ```
 
 ```bash
-python corrected_ffgr_llm_init_script___SEE_ME.py --quick --dataset hard_json --easy
+python corrected_ffgr_llm_init_script___SEE_ME.py --quick --dataset hard_knapsack.json --easy
 ```
 
 ```bash
-python corrected_ffgr_llm_init_script___SEE_ME.py --quick --dataset semantic_json
+python corrected_ffgr_llm_init_script___SEE_ME.py --quick --dataset semantic_expedition.json
 ```
 
 ### Full camera-ready experiments (30 runs, reproduces paper results)
 
 ```bash
-python corrected_ffgr_llm_init_script___SEE_ME.py --camera --dataset hard_json --runs 30 --seed0 12345
+python corrected_ffgr_llm_init_script___SEE_ME.py --camera --dataset hard_knapsack.json--runs 30 --seed0 12345
 ```
 
 ```bash
-python corrected_ffgr_llm_init_script___SEE_ME.py --camera --dataset semantic_json --runs 30 --outdir results_semantic
+python corrected_ffgr_llm_init_script___SEE_ME.py --camera --dataset semantic_expedition.json --runs 30 --outdir results_semantic
 ```
 
 ### All CLI options
@@ -109,28 +109,6 @@ Results are written to `--outdir` (default: `camera_ready_results/`) and include
 - Convergence curves (best feasible fitness by generation, one plot per problem)
 - Raw per-run data as CSV
 
-## Code Structure
-
-```
-corrected_ffgr_llm_init_script___SEE_ME.py
-│
-├── Problem definitions
-│   ├── SimpleProblem          # Easy synthetic knapsack (50 items, 1 constraint)
-│   ├── HardKnapsackProblem    # Hard synthetic knapsack (200 items, 4 constraint types)
-│   └── SemanticKnapsackProblem  # Expedition knapsack with relational constraints
-│
-├── Initialization strategies
-│   ├── initialize_population_random()       # Pure GA baseline
-│   ├── initialize_population_ffgr()         # Handcrafted greedy (oracle baseline)
-│   └── initialize_population_llm_guided()   # LLM-derived heuristic biases
-│
-├── LLMGuidance                # Single-query LLM interface with guidance caching
-├── GeneticAlgorithm           # Standard GA (tournament selection, 2-pt crossover, bit-flip mutation)
-│
-├── run_experiment_on_problem()  # Single-problem experiment runner
-├── quick_test()                 # Fast smoke test
-└── camera_ready_experiments()   # Full reproducible evaluation
-```
 
 ## Key Design Choices
 
@@ -139,15 +117,6 @@ corrected_ffgr_llm_init_script___SEE_ME.py
 - **Strict feasibility.** All reported metrics (best fitness, feasibility rate, convergence curves) count only strictly feasible solutions. No penalized fitness is reported.
 - **Reproducibility.** Fixed seeds, identical GA hyperparameters across all methods, and deterministic safety clamps on all LLM outputs.
 
-## Citation
 
-If you use this code, please cite:
-
-```bibtex
-@inproceedings{llm-ga-ppsn2026,
-  title     = {LLM-Guided Initialization for Genetic Algorithms Under Strict Feasibility Constraints},
-  booktitle = {Parallel Problem Solving from Nature (PPSN 2026)},
-  year      = {2026}
-}
 ```
 
