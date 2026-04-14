@@ -44,7 +44,7 @@ Or pass it as a positional argument (see Usage below).
 
 | `--dataset` value | Description | Required file |
 |---|---|---|
-| `semantic_json` | Expedition planning with relational constraints | `semantic_expedition.json` |
+| `semantic_expedition.json | Expedition planning with relational constraints | `semantic_expedition.json` |
 
 Place `.json` dataset files in the working directory before running.
 
@@ -55,13 +55,13 @@ Place `.json` dataset files in the working directory before running.
 ### Quick test (2 runs, fast smoke test)
 
 ```bash
-python semantic_aware_llm_init_scriptSEEME.py --quick --dataset semantic_json
+python semantic_aware_llm_init_scriptSEEME.py --quick --dataset semantic_expedition.json
 ```
 
 ### Full camera-ready experiments (reproduces paper Table 6)
 
 ```bash
-python semantic_aware_llm_init_scriptSEEME.py --camera --dataset semantic_json --runs 30 --seed0 12345
+python semantic_aware_llm_init_scriptSEEME.py --camera --dataset semantic_expedition.json --runs 30 --seed0 12345
 ```
 
 
@@ -78,7 +78,7 @@ mode (required, mutually exclusive):
   --camera              Run full 30-run camera-ready experiments
 
 options:
-  --dataset             synthetic | hard_json | semantic_json  (default: hard_json)
+  --dataset            semantic_expedition.json  (default: hard_json)
   --easy                Also run the easy (synthetic) problem variant
   --runs N              Number of independent runs for --camera  (default: 30)
   --seed0 N             Base random seed  (default: 12345)
