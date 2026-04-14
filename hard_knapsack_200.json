@@ -1,0 +1,1808 @@
+{
+  "type": "hard_knapsack",
+  "capacity": 800,
+  "min_categories": 6,
+  "max_per_category": 25,
+  "items": [
+    {
+      "id": 0,
+      "name": "electronics_power_0",
+      "value": 118,
+      "weight": 54,
+      "category": "electronics",
+      "subcategory": "power",
+      "priority_level": 3
+    },
+    {
+      "id": 1,
+      "name": "electronics_accessories_1",
+      "value": 217,
+      "weight": 41,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 2,
+      "name": "electronics_accessories_2",
+      "value": 86,
+      "weight": 46,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 3,
+      "name": "electronics_communication_3",
+      "value": 172,
+      "weight": 23,
+      "category": "electronics",
+      "subcategory": "communication",
+      "priority_level": 3
+    },
+    {
+      "id": 4,
+      "name": "electronics_communication_4",
+      "value": 108,
+      "weight": 34,
+      "category": "electronics",
+      "subcategory": "communication",
+      "priority_level": 3
+    },
+    {
+      "id": 5,
+      "name": "electronics_computing_5",
+      "value": 159,
+      "weight": 23,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 1
+    },
+    {
+      "id": 6,
+      "name": "electronics_accessories_6",
+      "value": 144,
+      "weight": 42,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 7,
+      "name": "electronics_computing_7",
+      "value": 91,
+      "weight": 44,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 2
+    },
+    {
+      "id": 8,
+      "name": "electronics_power_8",
+      "value": 165,
+      "weight": 27,
+      "category": "electronics",
+      "subcategory": "power",
+      "priority_level": 3
+    },
+    {
+      "id": 9,
+      "name": "electronics_computing_9",
+      "value": 91,
+      "weight": 10,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 3
+    },
+    {
+      "id": 10,
+      "name": "electronics_communication_10",
+      "value": 141,
+      "weight": 34,
+      "category": "electronics",
+      "subcategory": "communication",
+      "priority_level": 3
+    },
+    {
+      "id": 11,
+      "name": "electronics_computing_11",
+      "value": 164,
+      "weight": 29,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 2
+    },
+    {
+      "id": 12,
+      "name": "electronics_computing_12",
+      "value": 105,
+      "weight": 38,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 2
+    },
+    {
+      "id": 13,
+      "name": "electronics_communication_13",
+      "value": 99,
+      "weight": 23,
+      "category": "electronics",
+      "subcategory": "communication",
+      "priority_level": 3
+    },
+    {
+      "id": 14,
+      "name": "electronics_computing_14",
+      "value": 180,
+      "weight": 24,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 2
+    },
+    {
+      "id": 15,
+      "name": "electronics_computing_15",
+      "value": 178,
+      "weight": 49,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 2
+    },
+    {
+      "id": 16,
+      "name": "electronics_communication_16",
+      "value": 189,
+      "weight": 18,
+      "category": "electronics",
+      "subcategory": "communication",
+      "priority_level": 3
+    },
+    {
+      "id": 17,
+      "name": "electronics_computing_17",
+      "value": 179,
+      "weight": 37,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 3
+    },
+    {
+      "id": 18,
+      "name": "electronics_power_18",
+      "value": 149,
+      "weight": 37,
+      "category": "electronics",
+      "subcategory": "power",
+      "priority_level": 3
+    },
+    {
+      "id": 19,
+      "name": "electronics_communication_19",
+      "value": 199,
+      "weight": 30,
+      "category": "electronics",
+      "subcategory": "communication",
+      "priority_level": 1
+    },
+    {
+      "id": 20,
+      "name": "electronics_accessories_20",
+      "value": 181,
+      "weight": 10,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 21,
+      "name": "electronics_computing_21",
+      "value": 99,
+      "weight": 28,
+      "category": "electronics",
+      "subcategory": "computing",
+      "priority_level": 3
+    },
+    {
+      "id": 22,
+      "name": "electronics_accessories_22",
+      "value": 112,
+      "weight": 41,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 23,
+      "name": "electronics_accessories_23",
+      "value": 116,
+      "weight": 39,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 24,
+      "name": "electronics_accessories_24",
+      "value": 97,
+      "weight": 50,
+      "category": "electronics",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 25,
+      "name": "medical_preventive_0",
+      "value": 105,
+      "weight": 12,
+      "category": "medical",
+      "subcategory": "preventive",
+      "priority_level": 2
+    },
+    {
+      "id": 26,
+      "name": "medical_first_aid_1",
+      "value": 264,
+      "weight": 5,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 1
+    },
+    {
+      "id": 27,
+      "name": "medical_preventive_2",
+      "value": 191,
+      "weight": 4,
+      "category": "medical",
+      "subcategory": "preventive",
+      "priority_level": 3
+    },
+    {
+      "id": 28,
+      "name": "medical_first_aid_3",
+      "value": 169,
+      "weight": 6,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 3
+    },
+    {
+      "id": 29,
+      "name": "medical_preventive_4",
+      "value": 217,
+      "weight": 3,
+      "category": "medical",
+      "subcategory": "preventive",
+      "priority_level": 3
+    },
+    {
+      "id": 30,
+      "name": "medical_first_aid_5",
+      "value": 141,
+      "weight": 13,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 3
+    },
+    {
+      "id": 31,
+      "name": "medical_prescription_6",
+      "value": 246,
+      "weight": 15,
+      "category": "medical",
+      "subcategory": "prescription",
+      "priority_level": 2
+    },
+    {
+      "id": 32,
+      "name": "medical_prescription_7",
+      "value": 155,
+      "weight": 2,
+      "category": "medical",
+      "subcategory": "prescription",
+      "priority_level": 2
+    },
+    {
+      "id": 33,
+      "name": "medical_diagnostic_8",
+      "value": 165,
+      "weight": 6,
+      "category": "medical",
+      "subcategory": "diagnostic",
+      "priority_level": 3
+    },
+    {
+      "id": 34,
+      "name": "medical_preventive_9",
+      "value": 114,
+      "weight": 2,
+      "category": "medical",
+      "subcategory": "preventive",
+      "priority_level": 3
+    },
+    {
+      "id": 35,
+      "name": "medical_diagnostic_10",
+      "value": 186,
+      "weight": 10,
+      "category": "medical",
+      "subcategory": "diagnostic",
+      "priority_level": 3
+    },
+    {
+      "id": 36,
+      "name": "medical_first_aid_11",
+      "value": 269,
+      "weight": 5,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 2
+    },
+    {
+      "id": 37,
+      "name": "medical_first_aid_12",
+      "value": 167,
+      "weight": 12,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 2
+    },
+    {
+      "id": 38,
+      "name": "medical_diagnostic_13",
+      "value": 137,
+      "weight": 16,
+      "category": "medical",
+      "subcategory": "diagnostic",
+      "priority_level": 3
+    },
+    {
+      "id": 39,
+      "name": "medical_first_aid_14",
+      "value": 265,
+      "weight": 8,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 1
+    },
+    {
+      "id": 40,
+      "name": "medical_diagnostic_15",
+      "value": 226,
+      "weight": 3,
+      "category": "medical",
+      "subcategory": "diagnostic",
+      "priority_level": 3
+    },
+    {
+      "id": 41,
+      "name": "medical_first_aid_16",
+      "value": 195,
+      "weight": 4,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 3
+    },
+    {
+      "id": 42,
+      "name": "medical_prescription_17",
+      "value": 184,
+      "weight": 10,
+      "category": "medical",
+      "subcategory": "prescription",
+      "priority_level": 3
+    },
+    {
+      "id": 43,
+      "name": "medical_first_aid_18",
+      "value": 166,
+      "weight": 14,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 3
+    },
+    {
+      "id": 44,
+      "name": "medical_prescription_19",
+      "value": 150,
+      "weight": 7,
+      "category": "medical",
+      "subcategory": "prescription",
+      "priority_level": 3
+    },
+    {
+      "id": 45,
+      "name": "medical_preventive_20",
+      "value": 323,
+      "weight": 25,
+      "category": "medical",
+      "subcategory": "preventive",
+      "priority_level": 3
+    },
+    {
+      "id": 46,
+      "name": "medical_prescription_21",
+      "value": 153,
+      "weight": 14,
+      "category": "medical",
+      "subcategory": "prescription",
+      "priority_level": 3
+    },
+    {
+      "id": 47,
+      "name": "medical_prescription_22",
+      "value": 223,
+      "weight": 9,
+      "category": "medical",
+      "subcategory": "prescription",
+      "priority_level": 3
+    },
+    {
+      "id": 48,
+      "name": "medical_diagnostic_23",
+      "value": 142,
+      "weight": 10,
+      "category": "medical",
+      "subcategory": "diagnostic",
+      "priority_level": 3
+    },
+    {
+      "id": 49,
+      "name": "medical_first_aid_24",
+      "value": 218,
+      "weight": 10,
+      "category": "medical",
+      "subcategory": "first_aid",
+      "priority_level": 1
+    },
+    {
+      "id": 50,
+      "name": "tools_measurement_0",
+      "value": 101,
+      "weight": 54,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 2
+    },
+    {
+      "id": 51,
+      "name": "tools_safety_1",
+      "value": 123,
+      "weight": 26,
+      "category": "tools",
+      "subcategory": "safety",
+      "priority_level": 2
+    },
+    {
+      "id": 52,
+      "name": "tools_measurement_2",
+      "value": 94,
+      "weight": 57,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 3
+    },
+    {
+      "id": 53,
+      "name": "tools_measurement_3",
+      "value": 136,
+      "weight": 17,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 2
+    },
+    {
+      "id": 54,
+      "name": "tools_repair_4",
+      "value": 93,
+      "weight": 21,
+      "category": "tools",
+      "subcategory": "repair",
+      "priority_level": 3
+    },
+    {
+      "id": 55,
+      "name": "tools_measurement_5",
+      "value": 86,
+      "weight": 57,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 2
+    },
+    {
+      "id": 56,
+      "name": "tools_measurement_6",
+      "value": 117,
+      "weight": 37,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 3
+    },
+    {
+      "id": 57,
+      "name": "tools_measurement_7",
+      "value": 149,
+      "weight": 37,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 3
+    },
+    {
+      "id": 58,
+      "name": "tools_construction_8",
+      "value": 106,
+      "weight": 26,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 59,
+      "name": "tools_construction_9",
+      "value": 144,
+      "weight": 48,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 60,
+      "name": "tools_measurement_10",
+      "value": 146,
+      "weight": 30,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 3
+    },
+    {
+      "id": 61,
+      "name": "tools_measurement_11",
+      "value": 169,
+      "weight": 34,
+      "category": "tools",
+      "subcategory": "measurement",
+      "priority_level": 3
+    },
+    {
+      "id": 62,
+      "name": "tools_safety_12",
+      "value": 109,
+      "weight": 48,
+      "category": "tools",
+      "subcategory": "safety",
+      "priority_level": 3
+    },
+    {
+      "id": 63,
+      "name": "tools_construction_13",
+      "value": 101,
+      "weight": 55,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 64,
+      "name": "tools_repair_14",
+      "value": 80,
+      "weight": 43,
+      "category": "tools",
+      "subcategory": "repair",
+      "priority_level": 3
+    },
+    {
+      "id": 65,
+      "name": "tools_repair_15",
+      "value": 63,
+      "weight": 36,
+      "category": "tools",
+      "subcategory": "repair",
+      "priority_level": 3
+    },
+    {
+      "id": 66,
+      "name": "tools_construction_16",
+      "value": 95,
+      "weight": 44,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 67,
+      "name": "tools_construction_17",
+      "value": 148,
+      "weight": 55,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 68,
+      "name": "tools_construction_18",
+      "value": 62,
+      "weight": 20,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 69,
+      "name": "tools_construction_19",
+      "value": 101,
+      "weight": 28,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 70,
+      "name": "tools_construction_20",
+      "value": 139,
+      "weight": 35,
+      "category": "tools",
+      "subcategory": "construction",
+      "priority_level": 3
+    },
+    {
+      "id": 71,
+      "name": "tools_safety_21",
+      "value": 89,
+      "weight": 56,
+      "category": "tools",
+      "subcategory": "safety",
+      "priority_level": 3
+    },
+    {
+      "id": 72,
+      "name": "tools_repair_22",
+      "value": 70,
+      "weight": 56,
+      "category": "tools",
+      "subcategory": "repair",
+      "priority_level": 3
+    },
+    {
+      "id": 73,
+      "name": "tools_repair_23",
+      "value": 118,
+      "weight": 73,
+      "category": "tools",
+      "subcategory": "repair",
+      "priority_level": 3
+    },
+    {
+      "id": 74,
+      "name": "tools_repair_24",
+      "value": 103,
+      "weight": 18,
+      "category": "tools",
+      "subcategory": "repair",
+      "priority_level": 3
+    },
+    {
+      "id": 75,
+      "name": "food_canned_0",
+      "value": 55,
+      "weight": 19,
+      "category": "food",
+      "subcategory": "canned",
+      "priority_level": 3
+    },
+    {
+      "id": 76,
+      "name": "food_water_1",
+      "value": 26,
+      "weight": 24,
+      "category": "food",
+      "subcategory": "water",
+      "priority_level": 3
+    },
+    {
+      "id": 77,
+      "name": "food_freeze_dried_2",
+      "value": 63,
+      "weight": 23,
+      "category": "food",
+      "subcategory": "freeze_dried",
+      "priority_level": 3
+    },
+    {
+      "id": 78,
+      "name": "food_canned_3",
+      "value": 31,
+      "weight": 16,
+      "category": "food",
+      "subcategory": "canned",
+      "priority_level": 2
+    },
+    {
+      "id": 79,
+      "name": "food_freeze_dried_4",
+      "value": 80,
+      "weight": 23,
+      "category": "food",
+      "subcategory": "freeze_dried",
+      "priority_level": 3
+    },
+    {
+      "id": 80,
+      "name": "food_snacks_5",
+      "value": 31,
+      "weight": 5,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 2
+    },
+    {
+      "id": 81,
+      "name": "food_freeze_dried_6",
+      "value": 55,
+      "weight": 5,
+      "category": "food",
+      "subcategory": "freeze_dried",
+      "priority_level": 3
+    },
+    {
+      "id": 82,
+      "name": "food_snacks_7",
+      "value": 33,
+      "weight": 38,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 83,
+      "name": "food_snacks_8",
+      "value": 79,
+      "weight": 23,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 84,
+      "name": "food_water_9",
+      "value": 26,
+      "weight": 37,
+      "category": "food",
+      "subcategory": "water",
+      "priority_level": 2
+    },
+    {
+      "id": 85,
+      "name": "food_snacks_10",
+      "value": 56,
+      "weight": 30,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 86,
+      "name": "food_canned_11",
+      "value": 77,
+      "weight": 35,
+      "category": "food",
+      "subcategory": "canned",
+      "priority_level": 3
+    },
+    {
+      "id": 87,
+      "name": "food_snacks_12",
+      "value": 96,
+      "weight": 40,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 1
+    },
+    {
+      "id": 88,
+      "name": "food_snacks_13",
+      "value": 21,
+      "weight": 34,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 89,
+      "name": "food_snacks_14",
+      "value": 32,
+      "weight": 5,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 90,
+      "name": "food_water_15",
+      "value": 93,
+      "weight": 23,
+      "category": "food",
+      "subcategory": "water",
+      "priority_level": 3
+    },
+    {
+      "id": 91,
+      "name": "food_canned_16",
+      "value": 58,
+      "weight": 15,
+      "category": "food",
+      "subcategory": "canned",
+      "priority_level": 3
+    },
+    {
+      "id": 92,
+      "name": "food_snacks_17",
+      "value": 30,
+      "weight": 16,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 93,
+      "name": "food_canned_18",
+      "value": 77,
+      "weight": 29,
+      "category": "food",
+      "subcategory": "canned",
+      "priority_level": 3
+    },
+    {
+      "id": 94,
+      "name": "food_canned_19",
+      "value": 51,
+      "weight": 17,
+      "category": "food",
+      "subcategory": "canned",
+      "priority_level": 3
+    },
+    {
+      "id": 95,
+      "name": "food_snacks_20",
+      "value": 70,
+      "weight": 16,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 96,
+      "name": "food_freeze_dried_21",
+      "value": 87,
+      "weight": 61,
+      "category": "food",
+      "subcategory": "freeze_dried",
+      "priority_level": 3
+    },
+    {
+      "id": 97,
+      "name": "food_snacks_22",
+      "value": 47,
+      "weight": 30,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 98,
+      "name": "food_snacks_23",
+      "value": 69,
+      "weight": 7,
+      "category": "food",
+      "subcategory": "snacks",
+      "priority_level": 3
+    },
+    {
+      "id": 99,
+      "name": "food_freeze_dried_24",
+      "value": 27,
+      "weight": 14,
+      "category": "food",
+      "subcategory": "freeze_dried",
+      "priority_level": 3
+    },
+    {
+      "id": 100,
+      "name": "clothing_outerwear_0",
+      "value": 43,
+      "weight": 7,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 3
+    },
+    {
+      "id": 101,
+      "name": "clothing_outerwear_1",
+      "value": 47,
+      "weight": 18,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 2
+    },
+    {
+      "id": 102,
+      "name": "clothing_base_layer_2",
+      "value": 62,
+      "weight": 14,
+      "category": "clothing",
+      "subcategory": "base_layer",
+      "priority_level": 3
+    },
+    {
+      "id": 103,
+      "name": "clothing_base_layer_3",
+      "value": 55,
+      "weight": 20,
+      "category": "clothing",
+      "subcategory": "base_layer",
+      "priority_level": 2
+    },
+    {
+      "id": 104,
+      "name": "clothing_outerwear_4",
+      "value": 119,
+      "weight": 9,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 3
+    },
+    {
+      "id": 105,
+      "name": "clothing_outerwear_5",
+      "value": 71,
+      "weight": 26,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 3
+    },
+    {
+      "id": 106,
+      "name": "clothing_outerwear_6",
+      "value": 145,
+      "weight": 45,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 3
+    },
+    {
+      "id": 107,
+      "name": "clothing_footwear_7",
+      "value": 59,
+      "weight": 16,
+      "category": "clothing",
+      "subcategory": "footwear",
+      "priority_level": 3
+    },
+    {
+      "id": 108,
+      "name": "clothing_footwear_8",
+      "value": 73,
+      "weight": 21,
+      "category": "clothing",
+      "subcategory": "footwear",
+      "priority_level": 3
+    },
+    {
+      "id": 109,
+      "name": "clothing_outerwear_9",
+      "value": 73,
+      "weight": 29,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 3
+    },
+    {
+      "id": 110,
+      "name": "clothing_accessories_10",
+      "value": 50,
+      "weight": 19,
+      "category": "clothing",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 111,
+      "name": "clothing_footwear_11",
+      "value": 115,
+      "weight": 25,
+      "category": "clothing",
+      "subcategory": "footwear",
+      "priority_level": 3
+    },
+    {
+      "id": 112,
+      "name": "clothing_footwear_12",
+      "value": 62,
+      "weight": 16,
+      "category": "clothing",
+      "subcategory": "footwear",
+      "priority_level": 2
+    },
+    {
+      "id": 113,
+      "name": "clothing_accessories_13",
+      "value": 104,
+      "weight": 17,
+      "category": "clothing",
+      "subcategory": "accessories",
+      "priority_level": 1
+    },
+    {
+      "id": 114,
+      "name": "clothing_accessories_14",
+      "value": 88,
+      "weight": 15,
+      "category": "clothing",
+      "subcategory": "accessories",
+      "priority_level": 2
+    },
+    {
+      "id": 115,
+      "name": "clothing_outerwear_15",
+      "value": 104,
+      "weight": 25,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 3
+    },
+    {
+      "id": 116,
+      "name": "clothing_base_layer_16",
+      "value": 97,
+      "weight": 17,
+      "category": "clothing",
+      "subcategory": "base_layer",
+      "priority_level": 3
+    },
+    {
+      "id": 117,
+      "name": "clothing_base_layer_17",
+      "value": 84,
+      "weight": 10,
+      "category": "clothing",
+      "subcategory": "base_layer",
+      "priority_level": 2
+    },
+    {
+      "id": 118,
+      "name": "clothing_outerwear_18",
+      "value": 126,
+      "weight": 26,
+      "category": "clothing",
+      "subcategory": "outerwear",
+      "priority_level": 1
+    },
+    {
+      "id": 119,
+      "name": "clothing_base_layer_19",
+      "value": 95,
+      "weight": 30,
+      "category": "clothing",
+      "subcategory": "base_layer",
+      "priority_level": 3
+    },
+    {
+      "id": 120,
+      "name": "clothing_accessories_20",
+      "value": 54,
+      "weight": 28,
+      "category": "clothing",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 121,
+      "name": "clothing_accessories_21",
+      "value": 44,
+      "weight": 12,
+      "category": "clothing",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 122,
+      "name": "clothing_footwear_22",
+      "value": 120,
+      "weight": 28,
+      "category": "clothing",
+      "subcategory": "footwear",
+      "priority_level": 2
+    },
+    {
+      "id": 123,
+      "name": "clothing_accessories_23",
+      "value": 118,
+      "weight": 14,
+      "category": "clothing",
+      "subcategory": "accessories",
+      "priority_level": 3
+    },
+    {
+      "id": 124,
+      "name": "clothing_base_layer_24",
+      "value": 126,
+      "weight": 48,
+      "category": "clothing",
+      "subcategory": "base_layer",
+      "priority_level": 3
+    },
+    {
+      "id": 125,
+      "name": "shelter_sleeping_0",
+      "value": 151,
+      "weight": 44,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 2
+    },
+    {
+      "id": 126,
+      "name": "shelter_tent_1",
+      "value": 147,
+      "weight": 63,
+      "category": "shelter",
+      "subcategory": "tent",
+      "priority_level": 1
+    },
+    {
+      "id": 127,
+      "name": "shelter_sleeping_2",
+      "value": 159,
+      "weight": 30,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 3
+    },
+    {
+      "id": 128,
+      "name": "shelter_cooking_3",
+      "value": 120,
+      "weight": 39,
+      "category": "shelter",
+      "subcategory": "cooking",
+      "priority_level": 2
+    },
+    {
+      "id": 129,
+      "name": "shelter_storage_4",
+      "value": 155,
+      "weight": 54,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 2
+    },
+    {
+      "id": 130,
+      "name": "shelter_storage_5",
+      "value": 148,
+      "weight": 54,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 2
+    },
+    {
+      "id": 131,
+      "name": "shelter_sleeping_6",
+      "value": 146,
+      "weight": 61,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 3
+    },
+    {
+      "id": 132,
+      "name": "shelter_storage_7",
+      "value": 146,
+      "weight": 46,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 3
+    },
+    {
+      "id": 133,
+      "name": "shelter_storage_8",
+      "value": 174,
+      "weight": 44,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 3
+    },
+    {
+      "id": 134,
+      "name": "shelter_tent_9",
+      "value": 150,
+      "weight": 56,
+      "category": "shelter",
+      "subcategory": "tent",
+      "priority_level": 1
+    },
+    {
+      "id": 135,
+      "name": "shelter_cooking_10",
+      "value": 107,
+      "weight": 60,
+      "category": "shelter",
+      "subcategory": "cooking",
+      "priority_level": 3
+    },
+    {
+      "id": 136,
+      "name": "shelter_tent_11",
+      "value": 166,
+      "weight": 49,
+      "category": "shelter",
+      "subcategory": "tent",
+      "priority_level": 2
+    },
+    {
+      "id": 137,
+      "name": "shelter_tent_12",
+      "value": 96,
+      "weight": 54,
+      "category": "shelter",
+      "subcategory": "tent",
+      "priority_level": 3
+    },
+    {
+      "id": 138,
+      "name": "shelter_sleeping_13",
+      "value": 88,
+      "weight": 53,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 3
+    },
+    {
+      "id": 139,
+      "name": "shelter_storage_14",
+      "value": 126,
+      "weight": 44,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 3
+    },
+    {
+      "id": 140,
+      "name": "shelter_sleeping_15",
+      "value": 155,
+      "weight": 56,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 2
+    },
+    {
+      "id": 141,
+      "name": "shelter_sleeping_16",
+      "value": 178,
+      "weight": 56,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 3
+    },
+    {
+      "id": 142,
+      "name": "shelter_cooking_17",
+      "value": 125,
+      "weight": 68,
+      "category": "shelter",
+      "subcategory": "cooking",
+      "priority_level": 2
+    },
+    {
+      "id": 143,
+      "name": "shelter_tent_18",
+      "value": 146,
+      "weight": 72,
+      "category": "shelter",
+      "subcategory": "tent",
+      "priority_level": 2
+    },
+    {
+      "id": 144,
+      "name": "shelter_storage_19",
+      "value": 163,
+      "weight": 20,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 3
+    },
+    {
+      "id": 145,
+      "name": "shelter_cooking_20",
+      "value": 150,
+      "weight": 45,
+      "category": "shelter",
+      "subcategory": "cooking",
+      "priority_level": 3
+    },
+    {
+      "id": 146,
+      "name": "shelter_storage_21",
+      "value": 178,
+      "weight": 26,
+      "category": "shelter",
+      "subcategory": "storage",
+      "priority_level": 3
+    },
+    {
+      "id": 147,
+      "name": "shelter_sleeping_22",
+      "value": 168,
+      "weight": 30,
+      "category": "shelter",
+      "subcategory": "sleeping",
+      "priority_level": 3
+    },
+    {
+      "id": 148,
+      "name": "shelter_cooking_23",
+      "value": 174,
+      "weight": 22,
+      "category": "shelter",
+      "subcategory": "cooking",
+      "priority_level": 3
+    },
+    {
+      "id": 149,
+      "name": "shelter_tent_24",
+      "value": 130,
+      "weight": 40,
+      "category": "shelter",
+      "subcategory": "tent",
+      "priority_level": 3
+    },
+    {
+      "id": 150,
+      "name": "navigation_gps_0",
+      "value": 113,
+      "weight": 14,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 151,
+      "name": "navigation_map_1",
+      "value": 69,
+      "weight": 7,
+      "category": "navigation",
+      "subcategory": "map",
+      "priority_level": 2
+    },
+    {
+      "id": 152,
+      "name": "navigation_signaling_2",
+      "value": 135,
+      "weight": 7,
+      "category": "navigation",
+      "subcategory": "signaling",
+      "priority_level": 1
+    },
+    {
+      "id": 153,
+      "name": "navigation_map_3",
+      "value": 150,
+      "weight": 36,
+      "category": "navigation",
+      "subcategory": "map",
+      "priority_level": 3
+    },
+    {
+      "id": 154,
+      "name": "navigation_gps_4",
+      "value": 79,
+      "weight": 6,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 155,
+      "name": "navigation_compass_5",
+      "value": 68,
+      "weight": 18,
+      "category": "navigation",
+      "subcategory": "compass",
+      "priority_level": 3
+    },
+    {
+      "id": 156,
+      "name": "navigation_gps_6",
+      "value": 113,
+      "weight": 12,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 157,
+      "name": "navigation_signaling_7",
+      "value": 134,
+      "weight": 5,
+      "category": "navigation",
+      "subcategory": "signaling",
+      "priority_level": 2
+    },
+    {
+      "id": 158,
+      "name": "navigation_gps_8",
+      "value": 102,
+      "weight": 17,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 159,
+      "name": "navigation_compass_9",
+      "value": 121,
+      "weight": 14,
+      "category": "navigation",
+      "subcategory": "compass",
+      "priority_level": 3
+    },
+    {
+      "id": 160,
+      "name": "navigation_compass_10",
+      "value": 118,
+      "weight": 30,
+      "category": "navigation",
+      "subcategory": "compass",
+      "priority_level": 3
+    },
+    {
+      "id": 161,
+      "name": "navigation_gps_11",
+      "value": 52,
+      "weight": 6,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 162,
+      "name": "navigation_map_12",
+      "value": 107,
+      "weight": 5,
+      "category": "navigation",
+      "subcategory": "map",
+      "priority_level": 2
+    },
+    {
+      "id": 163,
+      "name": "navigation_compass_13",
+      "value": 141,
+      "weight": 28,
+      "category": "navigation",
+      "subcategory": "compass",
+      "priority_level": 3
+    },
+    {
+      "id": 164,
+      "name": "navigation_signaling_14",
+      "value": 122,
+      "weight": 2,
+      "category": "navigation",
+      "subcategory": "signaling",
+      "priority_level": 3
+    },
+    {
+      "id": 165,
+      "name": "navigation_map_15",
+      "value": 94,
+      "weight": 9,
+      "category": "navigation",
+      "subcategory": "map",
+      "priority_level": 3
+    },
+    {
+      "id": 166,
+      "name": "navigation_signaling_16",
+      "value": 176,
+      "weight": 9,
+      "category": "navigation",
+      "subcategory": "signaling",
+      "priority_level": 3
+    },
+    {
+      "id": 167,
+      "name": "navigation_signaling_17",
+      "value": 101,
+      "weight": 9,
+      "category": "navigation",
+      "subcategory": "signaling",
+      "priority_level": 2
+    },
+    {
+      "id": 168,
+      "name": "navigation_compass_18",
+      "value": 116,
+      "weight": 14,
+      "category": "navigation",
+      "subcategory": "compass",
+      "priority_level": 3
+    },
+    {
+      "id": 169,
+      "name": "navigation_gps_19",
+      "value": 53,
+      "weight": 12,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 170,
+      "name": "navigation_map_20",
+      "value": 93,
+      "weight": 10,
+      "category": "navigation",
+      "subcategory": "map",
+      "priority_level": 2
+    },
+    {
+      "id": 171,
+      "name": "navigation_signaling_21",
+      "value": 70,
+      "weight": 5,
+      "category": "navigation",
+      "subcategory": "signaling",
+      "priority_level": 3
+    },
+    {
+      "id": 172,
+      "name": "navigation_map_22",
+      "value": 96,
+      "weight": 19,
+      "category": "navigation",
+      "subcategory": "map",
+      "priority_level": 3
+    },
+    {
+      "id": 173,
+      "name": "navigation_gps_23",
+      "value": 70,
+      "weight": 12,
+      "category": "navigation",
+      "subcategory": "gps",
+      "priority_level": 3
+    },
+    {
+      "id": 174,
+      "name": "navigation_compass_24",
+      "value": 75,
+      "weight": 9,
+      "category": "navigation",
+      "subcategory": "compass",
+      "priority_level": 3
+    },
+    {
+      "id": 175,
+      "name": "entertainment_books_0",
+      "value": 32,
+      "weight": 4,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 3
+    },
+    {
+      "id": 176,
+      "name": "entertainment_music_1",
+      "value": 79,
+      "weight": 9,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 177,
+      "name": "entertainment_books_2",
+      "value": 51,
+      "weight": 25,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 1
+    },
+    {
+      "id": 178,
+      "name": "entertainment_music_3",
+      "value": 86,
+      "weight": 25,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 179,
+      "name": "entertainment_camera_4",
+      "value": 56,
+      "weight": 3,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 180,
+      "name": "entertainment_books_5",
+      "value": 88,
+      "weight": 3,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 2
+    },
+    {
+      "id": 181,
+      "name": "entertainment_books_6",
+      "value": 44,
+      "weight": 13,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 3
+    },
+    {
+      "id": 182,
+      "name": "entertainment_music_7",
+      "value": 94,
+      "weight": 17,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 183,
+      "name": "entertainment_music_8",
+      "value": 50,
+      "weight": 24,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 184,
+      "name": "entertainment_camera_9",
+      "value": 73,
+      "weight": 4,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 185,
+      "name": "entertainment_camera_10",
+      "value": 35,
+      "weight": 20,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 186,
+      "name": "entertainment_music_11",
+      "value": 53,
+      "weight": 7,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 187,
+      "name": "entertainment_games_12",
+      "value": 94,
+      "weight": 8,
+      "category": "entertainment",
+      "subcategory": "games",
+      "priority_level": 3
+    },
+    {
+      "id": 188,
+      "name": "entertainment_books_13",
+      "value": 83,
+      "weight": 9,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 3
+    },
+    {
+      "id": 189,
+      "name": "entertainment_camera_14",
+      "value": 56,
+      "weight": 21,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 190,
+      "name": "entertainment_games_15",
+      "value": 56,
+      "weight": 6,
+      "category": "entertainment",
+      "subcategory": "games",
+      "priority_level": 1
+    },
+    {
+      "id": 191,
+      "name": "entertainment_camera_16",
+      "value": 115,
+      "weight": 41,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 192,
+      "name": "entertainment_books_17",
+      "value": 65,
+      "weight": 7,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 2
+    },
+    {
+      "id": 193,
+      "name": "entertainment_music_18",
+      "value": 92,
+      "weight": 13,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 194,
+      "name": "entertainment_music_19",
+      "value": 92,
+      "weight": 27,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 2
+    },
+    {
+      "id": 195,
+      "name": "entertainment_camera_20",
+      "value": 55,
+      "weight": 8,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 196,
+      "name": "entertainment_books_21",
+      "value": 68,
+      "weight": 12,
+      "category": "entertainment",
+      "subcategory": "books",
+      "priority_level": 2
+    },
+    {
+      "id": 197,
+      "name": "entertainment_music_22",
+      "value": 49,
+      "weight": 25,
+      "category": "entertainment",
+      "subcategory": "music",
+      "priority_level": 3
+    },
+    {
+      "id": 198,
+      "name": "entertainment_camera_23",
+      "value": 50,
+      "weight": 23,
+      "category": "entertainment",
+      "subcategory": "camera",
+      "priority_level": 3
+    },
+    {
+      "id": 199,
+      "name": "entertainment_games_24",
+      "value": 80,
+      "weight": 10,
+      "category": "entertainment",
+      "subcategory": "games",
+      "priority_level": 3
+    }
+  ]
+}
